@@ -1,0 +1,7 @@
+Bufferedreader br = new Bufferedreader(new InputStreamReader(System.in)); 선언만
+한 줄에 여러개 나오지 않으면 Integer.ParseInt(br.readLine());
+
+
+StringTokenizer st = new StringTokenizer(br.readLine());
+선언 후에
+st.nextToken
