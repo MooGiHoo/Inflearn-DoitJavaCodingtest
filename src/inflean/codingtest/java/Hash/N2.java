@@ -1,9 +1,9 @@
-package inflean.codingtest.java;
+package inflean.codingtest.java.Hash;
 
 import java.io.*;
 import java.util.HashMap;
 
-public class Main {
+public class N2 {
     public static String answer(String arr1, String arr2){
         String answer = "YES";
         HashMap<Character, Integer> map = new HashMap<>();
@@ -25,9 +25,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String arr1 = br.readLine();
         String arr2 = br.readLine();
-        Main T = new Main();
+        inflean.codingtest.java.Main T = new inflean.codingtest.java.Main();
         System.out.println(T.answer(arr1, arr2));
     }
 }
-
-
