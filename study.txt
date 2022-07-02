@@ -1,6 +1,12 @@
 Bufferedreader br = new Bufferedreader(new InputStreamReader(System.in)); 선언만
 한 줄에 여러개 나오지 않으면 Integer.ParseInt(br.readLine());
 
+BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+bw.append();
+bw.flush();
+
+후에는 bw.close();  br.close();
+
 
 StringTokenizer st = new StringTokenizer(br.readLine());
 선언 후에
