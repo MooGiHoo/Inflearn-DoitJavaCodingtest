@@ -33,3 +33,4 @@ FIFO
 제일 앞에 있는 값 확인 queue.peek()
 queue.size()
 queue.contains(x) x포함? bool
+Queue<Integer> queue = new LinkedList<>(); 선언
