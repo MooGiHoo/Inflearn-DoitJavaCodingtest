@@ -1,33 +1,12 @@
 package inflean.codingtest.java;
 
+import java.util.*;
 import java.io.*;
-import java.util.HashMap;
 
 public class Main {
-    public static String answer(String arr1, String arr2){
-        String answer = "YES";
-        HashMap<Character, Integer> map = new HashMap<>();
-        for(char x : arr1.toCharArray()){
-            map.put(x, map.getOrDefault(x,0)+1);
-        }
-        for(char x : arr2.toCharArray()){
-            if(!map.containsKey(x)||map.get(x)==0){
-                return "NO";
-            }
-            else{
-                map.put(x,map.get(x)-1);
-            }
-        }
-        return answer;
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String arr1 = br.readLine();
-        String arr2 = br.readLine();
-        Main T = new Main();
-        System.out.println(T.answer(arr1, arr2));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        Stack<Integer> stack = new Stack<>();
     }
 }
-
-

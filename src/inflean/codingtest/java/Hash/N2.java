@@ -25,7 +25,7 @@ public class N2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String arr1 = br.readLine();
         String arr2 = br.readLine();
-        inflean.codingtest.java.Main T = new inflean.codingtest.java.Main();
-        System.out.println(T.answer(arr1, arr2));
+        inflean.codingtest.java.Main N2 = new inflean.codingtest.java.Main();
+//        System.out.println(N2.answer(arr1, arr2));
     }
 }
