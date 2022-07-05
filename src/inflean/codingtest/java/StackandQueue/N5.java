@@ -1,9 +1,9 @@
-package inflean.codingtest.java;
+package inflean.codingtest.java.StackandQueue;
 
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class N5 {
     public static int solve(String str){
         int answer = 0;
         Stack<Character> stack = new Stack<>();
